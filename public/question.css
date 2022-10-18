@@ -1,0 +1,25 @@
+.option1 .form-check-input {
+    position: relative;
+    bottom: 0.5em;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.option2 .form-check-input {
+    position: relative;
+    bottom: 0.5em;
+    width: 2em;
+    height: 2em;
+}
+
+.option3 .form-check-input {
+    position: relative;
+    bottom: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.option4 .form-check-input {
+    position: relative;
+    bottom: 0.3em;
+}
