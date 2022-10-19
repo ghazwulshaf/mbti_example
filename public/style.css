@@ -1,0 +1,15 @@
+.dash-question {
+    font-size: .875rem;
+    padding: 0;
+    margin: 0;
+    resize: none;
+    height: 100%;
+    border-radius: 0;
+}
+
+.dash-question:disabled {
+    background: none;
+    border: none;
+    cursor: text;
+    height: 5px;
+}
