@@ -13,3 +13,30 @@
     cursor: text;
     height: 5px;
 }
+
+.add-code {
+    padding: 0;
+    margin: 0;
+    resize: none;
+    border-radius: 0;
+}
+
+.add-question {
+    padding: 0;
+    margin: 0;
+    resize: none;
+    border-radius: 0;
+}
+
+.add-question-point {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.add-question-point:disabled {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+}

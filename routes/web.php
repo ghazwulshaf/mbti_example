@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\TestController;
 use App\Models\Question;
 use App\Models\Test;
@@ -17,12 +18,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard', [
-        'title' => 'Dashboard',
-        'questions' => Question::all()
-    ]);
-});
+// Route::get('/', function () {
+//     return view('dashboard', [
+//         'title' => 'Dashboard',
+//         'questions' => Question::all()
+//     ]);
+// });
+
+Route::get('/', [QuestionController::class, 'show']);
+
+Route::post('/', [QuestionController::class, 'store']);
 
 // Route::get('/test', function (Request $request) {
 //     return view('test', [

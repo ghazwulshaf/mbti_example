@@ -16,13 +16,13 @@ return new class extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->char('code', 4)->primary();
             $table->text('questions');
-            $table->integer('a');
-            $table->integer('b');
-            $table->integer('c');
-            $table->integer('d');
-            $table->integer('e');
-            $table->integer('f');
-            $table->integer('g');
+            $table->integer('a')->nullable();
+            $table->integer('b')->nullable();
+            $table->integer('c')->nullable();
+            $table->integer('d')->nullable();
+            $table->integer('e')->nullable();
+            $table->integer('f')->nullable();
+            $table->integer('g')->nullable();
             $table->timestamps();
         });
     }
